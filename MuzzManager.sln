@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuzzManager.Core", "MuzzManager.Core\MuzzManager.Core.csproj", "{93C4E857-7C86-4AE0-B8D5-7E2C99CAC9AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuzzManager.Application", "MuzzManager.Application\MuzzManager.Application.csproj", "{0F521369-FF74-4B9A-AAC7-C348A7903065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuzzManager.CLI", "MuzzManager.CLI\MuzzManager.CLI.csproj", "{7F3FC1F8-5295-4C38-A4C2-2B2900C52D91}"
+EndProject
+Global
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93C4E857-7C86-4AE0-B8D5-7E2C99CAC9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C4E857-7C86-4AE0-B8D5-7E2C99CAC9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C4E857-7C86-4AE0-B8D5-7E2C99CAC9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C4E857-7C86-4AE0-B8D5-7E2C99CAC9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F521369-FF74-4B9A-AAC7-C348A7903065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F521369-FF74-4B9A-AAC7-C348A7903065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F521369-FF74-4B9A-AAC7-C348A7903065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F521369-FF74-4B9A-AAC7-C348A7903065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F3FC1F8-5295-4C38-A4C2-2B2900C52D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3FC1F8-5295-4C38-A4C2-2B2900C52D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3FC1F8-5295-4C38-A4C2-2B2900C52D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3FC1F8-5295-4C38-A4C2-2B2900C52D91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+EndGlobal
