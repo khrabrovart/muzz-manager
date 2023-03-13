@@ -1,7 +1,6 @@
-﻿namespace MuzzManager.CLI.Interfaces
+﻿namespace MuzzManager.CLI.Interfaces;
+
+public interface IMainMusicService
 {
-    public interface IMainMusicService
-    {
-        void Start();
-    }
+    void Start();
 }

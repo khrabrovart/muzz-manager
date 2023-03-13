@@ -2,6 +2,6 @@
 {
     public interface IDirectorySynchronizationService
     {
-        string[] GetNotSyncedFiles(string directory1, string directory2);
+        (string filePath, bool existsInWorkingDirectory)[] GetNotSyncedFiles(string workingDirectory);
     }
 }

@@ -1,7 +1,7 @@
-﻿namespace MuzzManager.CLI
+﻿namespace MuzzManager.Application
 {
     using System;
-    using Interfaces;
+    using Core.Interfaces;
 
     public class MenuService : IMenuService
     {

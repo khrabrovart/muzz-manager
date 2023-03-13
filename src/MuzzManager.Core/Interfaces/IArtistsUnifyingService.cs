@@ -1,11 +1,10 @@
-﻿namespace MuzzManager.Core.Interfaces
+﻿namespace MuzzManager.Core.Interfaces;
+
+using System.Collections.Generic;
+
+public interface IArtistsUnifyingService
 {
-	using System.Collections.Generic;
+	IDictionary<string, HashSet<string>> ExtractArtists(IReadOnlyCollection<string> fileNames);
 
-	public interface IArtistsUnifyingService
-	{
-		IDictionary<string, HashSet<string>> ExtractArtists(IReadOnlyCollection<string> fileNames);
-
-		string UnifyArtists(string fileName, IDictionary<string, string> artistsCollection);
-	}
+	string UnifyArtists(string fileName, IDictionary<string, string> artistsCollection);
 }

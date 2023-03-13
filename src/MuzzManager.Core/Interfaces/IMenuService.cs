@@ -1,4 +1,4 @@
-﻿namespace MuzzManager.CLI.Interfaces
+﻿namespace MuzzManager.Core.Interfaces
 {
     public interface IMenuService
     {
